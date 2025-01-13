@@ -41,6 +41,7 @@ export async function GET(request: NextRequest) {
       pages: data.pagination.pages
     });
   } catch (error) {
+    console.log('error', error);
     if (error instanceof AxiosError) {
       return NextResponse.json(
         { message: 'Invalid request', errors: [error.message] },
