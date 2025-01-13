@@ -31,6 +31,7 @@ export default function MasterFilters({
             });
           }}
           labelPlacement='outside-left'
+          aria-label='Release Year'
           placeholder='Release Year'
           variant='bordered'
         >
@@ -53,6 +54,7 @@ export default function MasterFilters({
             });
           }}
           labelPlacement='outside-left'
+          aria-label='Country'
           placeholder='Country'
           variant='bordered'
         >
@@ -75,6 +77,7 @@ export default function MasterFilters({
             });
           }}
           labelPlacement='outside-left'
+          aria-label='Genre'
           placeholder='Genre'
           variant='bordered'
         >

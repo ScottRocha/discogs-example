@@ -33,7 +33,7 @@ const Root = () => {
     <>
       <MasterFilters filters={filters} onFiltersChange={onFiltersChange} />
       <MasterCards masters={data?.results || []} />
-      {data?.results.length !== 0 && (
+      {data?.results?.length !== 0 && (
         <div className='flex justify-center py-6'>
           <Pagination
             isCompact
