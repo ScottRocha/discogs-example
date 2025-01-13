@@ -6,7 +6,7 @@ import { Button } from '@nextui-org/react';
 
 import { AuthContext } from '@/contexts/Auth';
 
-export default () => {
+export default function () {
   const { username, loginPrompt, logout } = useContext(AuthContext);
 
   return username ? (
@@ -18,4 +18,4 @@ export default () => {
       Login
     </Button>
   );
-};
+}

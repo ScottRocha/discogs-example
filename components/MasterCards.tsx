@@ -6,11 +6,11 @@ import { cn, Card, Image, CardBody, Button } from '@nextui-org/react';
 import { FavouritesContext } from '@/contexts/Favourites';
 import { Master } from '@/types';
 
-export default ({
+export default function ({
   masters
 }: {
   masters: Pick<Master, 'id' | 'title' | 'cover_image'>[];
-}) => {
+}) {
   const { favourites, addFavourite } = useContext(FavouritesContext);
 
   return (
@@ -63,4 +63,4 @@ export default ({
       </div>
     </div>
   );
-};
+}

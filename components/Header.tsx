@@ -15,7 +15,7 @@ import { FavouritesContext } from '@/contexts/Favourites';
 
 import AuthButton from './AuthButton';
 
-export default () => {
+export default function () {
   const { username } = useContext(AuthContext);
   const { favourites } = useContext(FavouritesContext);
 
@@ -45,4 +45,4 @@ export default () => {
       </NavbarContent>
     </Navbar>
   );
-};
+}
