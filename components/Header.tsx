@@ -15,7 +15,7 @@ import { FavouritesContext } from '@/contexts/Favourites';
 
 import AuthButton from './AuthButton';
 
-export default function () {
+export default function Header() {
   const { username } = useContext(AuthContext);
   const { favourites } = useContext(FavouritesContext);
 

@@ -6,7 +6,7 @@ import { cn, Card, Image, CardBody, Button } from '@nextui-org/react';
 import { FavouritesContext } from '@/contexts/Favourites';
 import { Master } from '@/types';
 
-export default function ({
+export default function MasterCards({
   masters
 }: {
   masters: Pick<Master, 'id' | 'title' | 'cover_image'>[];

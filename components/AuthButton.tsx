@@ -6,7 +6,7 @@ import { Button } from '@nextui-org/react';
 
 import { AuthContext } from '@/contexts/Auth';
 
-export default function () {
+export default function AuthButton() {
   const { username, loginPrompt, logout } = useContext(AuthContext);
 
   return username ? (

@@ -7,7 +7,7 @@ const YEAR_VALUES = ['2024', '2023', '2022', '2021', '2020', '2019', '2018'];
 const COUNTRY_VALUES = ['canada', 'mexico', 'usa'];
 const GENRE_VALUES = ['blues', 'country', 'hip hop', 'pop', 'rock'];
 
-export default function ({
+export default function MasterFilters({
   filters,
   onFiltersChange
 }: {
